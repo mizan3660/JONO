@@ -1,3 +1,3 @@
 package com.jono.app;
-import android.content.Intent; import android.os.Bundle; import android.widget.Button; import androidx.appcompat.app.AppCompatActivity; import com.google.firebase.auth.FirebaseAuth;
-public class MainActivity extends AppCompatActivity { protected void onCreate(Bundle b){super.onCreate(b); setContentView(R.layout.activity_main); Button p=findViewById(R.id.createPost); p.setOnClickListener(v->startActivity(new Intent(this,CreatePostActivity.class))); if(FirebaseAuth.getInstance().getCurrentUser()==null){/* Keep demo feed accessible; connect auth gate when Firebase is configured. */} } }
+import android.os.Bundle; import android.widget.Button; import android.widget.Toast; import androidx.appcompat.app.AppCompatActivity;
+public class MainActivity extends AppCompatActivity { @Override protected void onCreate(Bundle b){ super.onCreate(b); setContentView(R.layout.activity_main); Button btn=findViewById(R.id.btnFeed); btn.setOnClickListener(v->Toast.makeText(this,"Jono Home Feed is ready for the next module.",Toast.LENGTH_SHORT).show()); } }
