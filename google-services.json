@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674174513225",
+    "project_id": "jono-cff63",
+    "storage_bucket": "jono-cff63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674174513225:android:27dc891b04c2ba068b8f98",
+        "android_client_info": {
+          "package_name": "com.jono.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2gFrldJYjxSjd71dJzAiPr5XQkTUBcUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
